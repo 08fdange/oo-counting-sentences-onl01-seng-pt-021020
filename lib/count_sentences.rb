@@ -15,9 +15,10 @@ class String
   end
 
   def count_sentences
+    count = ""
     sentence_count = self.split(/./)
     s2 = sentence_count.split(/?/)
     s3 = sentence_count.split(/!/)
-    s3.length
+    count << s3.length
   end
 end
