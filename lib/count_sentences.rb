@@ -17,6 +17,6 @@ class String
   def count_sentences
     count = ""
     sentence_count = self.split(/./)
-    count << s3.length
+    count << sentence_count.length
   end
 end
