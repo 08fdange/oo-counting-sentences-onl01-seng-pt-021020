@@ -15,8 +15,7 @@ class String
   end
 
   def count_sentences
-    sentence_count = self.split(/[^[[:word:]]]+/)
+    sentence_count = self.split()
     sentence_count.length
-    sentence_count
   end
 end
