@@ -18,5 +18,6 @@ class String
     count = ""
     sentence_count = self.split(/[.?!]/)
     count << sentence_count.length
+    count
   end
 end
